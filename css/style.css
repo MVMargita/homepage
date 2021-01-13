@@ -1044,3 +1044,13 @@ footer {
     margin-bottom: 0;
   }
 }
+
+.title-wrapper {
+	display: flex;
+}
+
+.title-wrapper>object {
+	max-width: 30px;
+	height: 30px;
+	margin-top: -10px;
+}
