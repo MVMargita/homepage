@@ -1079,3 +1079,11 @@ footer {
 	font-style: italic;
 	font-size: small;
 }
+
+.img-fluid {
+	width: 20px;
+}
+
+.freelan:hover {
+	border-bottom: 1px solid #4f00ff;
+}
