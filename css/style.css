@@ -690,6 +690,25 @@ details > div:after {
   height: 0.7em;
   cursor: pointer;
 }
+
+.details > input:hover {
+	content: " ";
+	border-top: 0.35em solid blue;
+	border-bottom: 0.35em solid yellow;
+	border-left: 0.5em solid red;
+	position: relative;
+	cursor: pointer;
+  }
+
+  .details > input:active {
+	content: " ";
+	border-top: 0.35em solid transparent;
+	border-bottom: 0.35em solid transparent;
+	border-left: 0.5em solid transparent;
+	position: relative;
+	cursor: pointer;
+  }
+
 .details > input:checked {
   transform: rotate(90deg);
 }
@@ -1053,4 +1072,18 @@ footer {
 	max-width: 30px;
 	height: 30px;
 	margin-top: -10px;
+}
+
+.font-bold {
+	font-weight: 900;
+	font-style: italic;
+	font-size: small;
+}
+
+.img-fluid {
+	width: 20px;
+}
+
+.freelan:hover {
+	border-bottom: 1px solid #4f00ff;
 }
