@@ -1,3 +1,2 @@
 # Homepage
-My very own personal website. Basically this is just a résumé
-BSA2021
+My very own personal website. Basically this is just a résumé.
